@@ -1,0 +1,33 @@
+body {
+    background: #042e4b;
+      color: #fff;
+    font: 19px/1.5 'Fira Sans Extra Condensed', Helvetica, Helvetica Neue, Arial;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body, figure, image {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro {
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/579121/sky-backr2.jpg') no-repeat;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+      z-index: -1;
+  }
+  .tulips {
+      bottom: -10px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      z-index: 1;
+  }
+  
+  .stemEnd1, .stemEnd2, .stemEnd3, .stemEnd4 {
+    visibility:hidden;
+  }
